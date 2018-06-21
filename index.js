@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
 
+// root url
 app.get('/', (req, res, next) => {
     res.send({
-      msg: 'hello world!',
+      msg: 'hello world',
     });
   }
 );
